@@ -12,9 +12,9 @@
 
 TeleTech Corporation operates two distinct business segments—**Telecommunications Services** and **Products & Systems (P&S)**—but applies a single corporate hurdle rate of **9.30%** to all capital allocation decisions. This report demonstrates that this practice is financially incorrect and leads to systematic value misallocation.
 
-Using the unlever-relever beta methodology and CAPM (as taught in Chapter 14, Cost of Capital), we estimate that the **Telecommunications Services** segment has a true risk-adjusted WACC of approximately **8.84%**, while **Products & Systems** carries a far higher WACC of approximately **11.97%**, reflecting its substantially greater business risk.
+Using the unlever-relever beta methodology and CAPM (as taught in Chapter 14, Cost of Capital), we estimate that the **Telecommunications Services** segment has a true risk-adjusted WACC of approximately **7.25%**, while **Products & Systems** carries a far higher WACC of approximately **11.22%**, reflecting its substantially greater business risk.
 
-Against these benchmarks, our Economic Value Added (EVA) analysis reveals that Telecom Services **creates** approximately **$59.3 million** of value per year, while Products & Systems **destroys** approximately **$62.6 million** per year—a finding entirely hidden when using the uniform 9.30% hurdle rate.
+Against these benchmarks, our Economic Value Added (EVA) analysis reveals that Telecom Services **creates** approximately **$208.7 million** of value per year, while Products & Systems **destroys** approximately **$77.1 million** per year—a finding significantly distorted when using the uniform 9.30% hurdle rate.
 
 We recommend that TeleTech immediately adopt risk-adjusted hurdle rates by segment and simultaneously review the strategic future of the P&S segment.
 
@@ -47,8 +47,8 @@ When a firm with multiple business segments uses one blended rate, it implicitly
 
 **The result is a "cross-subsidy" mechanism:**
 
-- The low-risk Telecom segment faces an **artificially high** hurdle rate (9.30% vs. its true WACC of 8.84%), causing good projects to be rejected.
-- The high-risk P&S segment faces an **artificially low** hurdle rate (9.30% vs. its true WACC of 11.97%), causing bad projects to be accepted.
+- The low-risk Telecom segment faces an **artificially high** hurdle rate (9.30% vs. its true WACC of 7.25%), causing good projects to be rejected.
+- The high-risk P&S segment faces an **artificially low** hurdle rate (9.30% vs. its true WACC of 11.22%), causing bad projects to be accepted.
 
 Capital flows in the wrong direction: from value-creating Telecom to value-destroying P&S.
 
@@ -118,7 +118,7 @@ Pre-tax cost of debt for Telecom (average of comparables): **r_d = 5.74%**
 
 $$WACC_{Telecom} = \underbrace{0.669 \times 9.13\%}_{\text{equity component}} + \underbrace{0.331 \times 5.74\% \times (1-0.40)}_{\text{after-tax debt}}$$
 
-$$= 6.11\% + 1.14\% = \mathbf{8.84\%\ (Telecom\ Services\ WACC)}$$
+$$= 6.11\% + 1.14\% = \mathbf{7.25\%\ (Telecom\ Services\ WACC)}$$
 
 ---
 
@@ -130,32 +130,32 @@ The four comparables are competitive technology/equipment companies from Exhibit
 
 | Company | Levered β_L | D/V | E/V | D/E | Unlevered β_U |
 |---|---|---|---|---|---|
-| Motorola | 1.60 | 19.6% | 80.4% | 0.2438 | 1.60 ÷ (1 + 0.60 × 0.2438) = **1.397** |
-| Lucent Technologies | 1.75 | 31.0% | 69.0% | 0.4493 | 1.75 ÷ (1 + 0.60 × 0.4493) = **1.374** |
-| Nortel Networks | 1.85 | 28.0% | 72.0% | 0.3889 | 1.85 ÷ (1 + 0.60 × 0.3889) = **1.499** |
+| Motorola | 1.60 | 19.6% | 80.4% | 0.2438 | 1.60 ÷ (1 + 0.60 × 0.2438) = **1.396** |
+| Lucent Technologies | 1.75 | 31.0% | 69.0% | 0.4493 | 1.75 ÷ (1 + 0.60 × 0.4493) = **1.379** |
+| Nortel Networks | 1.85 | 28.0% | 72.0% | 0.3889 | 1.85 ÷ (1 + 0.60 × 0.3889) = **1.500** |
 | EDS | 1.45 | 22.5% | 77.5% | 0.2903 | 1.45 ÷ (1 + 0.60 × 0.2903) = **1.232** |
-| **Average** | **1.6625** | **25.3%** | **74.7%** | **0.3388** | **1.375** |
+| **Average** | **1.6625** | **25.3%** | **74.7%** | **0.3388** | **1.377** |
 
 **Sample Calculation (Motorola):**
-$$\beta_U^{Motorola} = \frac{1.60}{1 + 0.60 \times 0.2438} = \frac{1.60}{1.1463} = 1.397$$
+$$\beta_U^{Motorola} = \frac{1.60}{1 + 0.60 \times 0.2438} = \frac{1.60}{1.1463} = 1.396$$
 
 #### Step 3: Re-lever Beta for P&S Segment
 
 Target capital structure = average of comparables: **D/V = 25.3%, E/V = 74.7%, D/E = 0.3388**
 
-$$\beta_L^{P\&S} = 1.375 \times (1 + 0.60 \times 0.3388) = 1.375 \times 1.2033 = \mathbf{1.655}$$
+$$\beta_L^{P\&S} = 1.377 \times (1 + 0.60 \times 0.3388) = 1.377 \times 1.2033 = \mathbf{1.657}$$
 
 #### Step 4: Cost of Equity (CAPM)
 
-$$r_e^{P\&S} = 4.62\% + 1.655 \times 5.50\% = 4.62\% + 9.10\% = \mathbf{13.72\%}$$
+$$r_e^{P\&S} = 4.62\% + 1.657 \times 5.50\% = 4.62\% + 9.11\% = \mathbf{13.73\%}$$
 
 #### Step 5: WACC for P&S Segment
 
 Pre-tax cost of debt for P&S (higher risk): **r_d = 6.30%**
 
-$$WACC_{P\&S} = \underbrace{0.747 \times 13.72\%}_{\text{equity component}} + \underbrace{0.253 \times 6.30\% \times (1-0.40)}_{\text{after-tax debt}}$$
+$$WACC_{P\&S} = \underbrace{0.747 \times 13.73\%}_{\text{equity component}} + \underbrace{0.253 \times 6.30\% \times (1-0.40)}_{\text{after-tax debt}}$$
 
-$$= 10.25\% + 0.96\% = \mathbf{11.21\%\ (P\&S\ WACC)}$$
+$$= 10.26\% + 0.96\% = \mathbf{11.22\%\ (P\&S\ WACC)}$$
 
 ---
 
@@ -163,17 +163,17 @@ $$= 10.25\% + 0.96\% = \mathbf{11.21\%\ (P\&S\ WACC)}$$
 
 | Metric | Telecom Services | Products & Systems | Corporate Blended |
 |---|---|---|---|
-| Avg. Unlevered Beta (β_U) | 0.632 | 1.375 | — |
-| Re-levered Beta (β_L) | **0.820** | **1.655** | ~1.04 |
-| Cost of Equity (r_e) | **9.13%** | **13.72%** | ~10.34% |
+| Avg. Unlevered Beta (β_U) | 0.632 | 1.377 | — |
+| Re-levered Beta (β_L) | **0.820** | **1.657** | ~1.04 |
+| Cost of Equity (r_e) | **9.13%** | **13.73%** | ~10.34% |
 | After-tax Cost of Debt | 3.44% | 3.78% | ~3.57% |
 | E/V Weight | 66.9% | 74.7% | ~70% |
 | D/V Weight | 33.1% | 25.3% | ~30% |
-| **WACC** | **8.84%** | **11.21%** | **9.30%** |
+| **WACC** | **7.25%** | **11.22%** | **9.30%** |
 | **ROIC (FY2004)** | **9.63%** | **8.84%** | **~9.40%** |
-| **Spread (ROIC − WACC)** | **+0.79%** | **−2.37%** | **+0.10%** |
+| **Spread (ROIC − WACC)** | **+2.38%** | **−2.38%** | **+0.10%** |
 
-**Key Insight:** The corporate-blended WACC of 9.30% masks a 2.37 percentage point value-destruction gap in P&S, and simultaneously understates the value-creation in Telecom.
+**Key Insight:** The corporate-blended WACC of 9.30% masks a 2.38 percentage point value-destruction gap in P&S, while simultaneously *dramatically understating* Telecom's value-creation capacity (true spread: +2.38%, not +0.33%).
 
 ---
 
@@ -188,13 +188,13 @@ Expected Return
      │
 13%  │                           ┌─────────────────────────────┐
      │                           │  TRUE cost of capital       │
-     │                           │  for P&S = 11.21%           │
+     │                           │  for P&S = 11.22%           │
 11%  │ - - - - - - - - - - - - -┼- - - - - - - -              │
-     │  Uniform hurdle (9.30%)  ─┼────────────────────────────── ←── P&S is HERE
-     │                          ─┼──────────────                │
- 9%  │              Telecom SML ─┘                             │
-     │                           ←── Telecom is HERE           │
- 8%  │ ──── Telecom true WACC (8.84%) ─────────────────────    │
+     │  Uniform hurdle (9.30%)  ─┼────────────────────────────── ←── P&S ROIC here
+     │                           │                             │
+ 9%  │   Telecom ROIC = 9.63% ──┤                             │
+     │                           │                             │
+ 7%  │ ──── Telecom true WACC (7.25%) ──────────────────────── │
      │                                                          │
      └──────────────────────────────────────────────────────────
                      Telecom                    P&S
@@ -205,9 +205,9 @@ Expected Return
 
 | Scenario | What uniform rate says | What risk-adjusted rate says | Error Type |
 |---|---|---|---|
-| Telecom project, IRR = 9.20% | ACCEPT (9.20% > 9.30%? No → actually REJECT) | ACCEPT (9.20% > 8.84%) | Type I: Reject good projects |
-| Telecom project, IRR = 9.00% | REJECT | ACCEPT (9.00% > 8.84%) | Type I: Reject good projects |
-| P&S project, IRR = 10.00% | ACCEPT (10.00% > 9.30%) | REJECT (10.00% < 11.21%) | Type II: Accept bad projects |
+| Telecom project, IRR = 9.20% | REJECT (9.20% < 9.30%) | ACCEPT (9.20% > 7.25%) | Type I: Reject good projects |
+| Telecom project, IRR = 8.00% | REJECT | ACCEPT (8.00% > 7.25%) | Type I: Reject good projects |
+| P&S project, IRR = 10.00% | ACCEPT (10.00% > 9.30%) | REJECT (10.00% < 11.22%) | Type II: Accept bad projects |
 | P&S project, IRR = 9.50% | ACCEPT | REJECT | Type II: Accept bad projects |
 
 ### 3.2 Implications for TeleTech's Resource Allocation Strategy
@@ -215,16 +215,16 @@ Expected Return
 The uniform hurdle rate creates four specific distortions in how TeleTech allocates capital:
 
 **Distortion 1 — Capital Over-allocation to P&S:**  
-Projects in P&S with returns between 9.30% and 11.21% will be approved under the uniform rate but are actually destroying value. Management will over-invest in the high-risk segment.
+Projects in P&S with returns between 9.30% and 11.22% will be approved under the uniform rate but are actually destroying value. Management will over-invest in the high-risk segment.
 
 **Distortion 2 — Capital Under-allocation to Telecom:**  
-Projects in Telecom with returns between 8.84% and 9.30% will be rejected under the uniform rate, even though they create value. Value-creating investment is systematically starved.
+Projects in Telecom with returns between 7.25% and 9.30% will be rejected under the uniform rate, even though they create value. The misallocated zone is over 2 percentage points wide—enormous by any standard.
 
 **Distortion 3 — Flawed Strategic Signaling:**  
-Under the uniform rate, Telecom appears to be only a marginal performer (+0.33% spread), while P&S appears nearly acceptable (−0.46% spread). In reality, Telecom is a strong performer and P&S is a significant value destroyer. The uniform rate produces precisely the *opposite* strategic signal.
+Under the uniform rate, Telecom appears to be only a marginal performer (+0.33% spread), while P&S appears nearly acceptable (−0.46% spread). Under risk-adjusted rates, the true picture is dramatically different: Telecom creates +2.38% of excess return, while P&S destroys −2.38%. The uniform rate produces precisely the *opposite* strategic signal.
 
 **Distortion 4 — Managerial Incentive Misalignment:**  
-If P&S managers are evaluated against a 9.30% hurdle, they face an inappropriate benchmark. A manager who generates 10.0% ROIC in P&S appears to be a strong performer, but is in fact destroying 1.21% of value annually relative to the true cost of capital.
+If P&S managers are evaluated against a 9.30% hurdle, they face an inappropriately easy benchmark. A manager who generates 10.0% ROIC in P&S appears to be a strong performer, but is in fact destroying 1.22% of value annually relative to the true cost of capital.
 
 ---
 
@@ -252,32 +252,29 @@ Using TeleTech's revenue split as a proxy for capital allocation (revenues: Tele
 
 | Segment | ROIC | Segment WACC | Spread | Invested Capital | Annual EVA |
 |---|---|---|---|---|---|
-| Telecom Services | 9.63% | 8.84% | **+0.79%** | $8,760M | **+$69.2M** |
-| Products & Systems | 8.84% | 11.21% | **−2.37%** | $3,240M | **−$76.8M** |
-| **Total (net)** | | | | **$12,000M** | **−$7.6M** |
+| Telecom Services | 9.63% | 7.25% | **+2.38%** | $8,760M | **+$208.5M** |
+| Products & Systems | 8.84% | 11.22% | **−2.38%** | $3,240M | **−$77.1M** |
+| **Total (net)** | | | | **$12,000M** | **+$131.4M** |
 
 ### 4.2 Has Products & Systems Destroyed Value?
 
-**Yes — definitively.** P&S has been destroying approximately **$76.8 million of shareholder value per year**.
+**Yes — definitively.** P&S has been destroying approximately **$77.1 million of shareholder value per year**.
 
-More strikingly, TeleTech as a whole is a **net value destroyer** by approximately $7.6 million per year, despite the uniform hurdle rate suggesting the firm is earning 10 basis points above its cost of capital (+0.10% spread). The uniform rate masks the truth.
+With risk-adjusted rates, the full picture becomes clear:
 
-Under the uniform rate, management sees:
+- Under the uniform rate, management sees: *Telecom creates +0.33% spread, P&S destroys −0.46% spread — firm is roughly breakeven.*
+- Under risk-adjusted rates, the truth is: **Telecom creates a massive +2.38% spread ($208.5M EVA/yr), while P&S destroys −2.38% spread ($77.1M EVA/yr).** The firm as a whole is a strong net value creator (+$131.4M/yr), but this is *entirely* driven by Telecom, while P&S acts as a substantial drag.
 
-> *Telecom creates small value (+0.33%), P&S destroys small value (−0.46%), net firm is roughly OK.*
-
-Under risk-adjusted rates, the truth is:
-
-> *Telecom creates substantial value (+0.79%), P&S destroys massive value (−2.37%), the firm is actually destroying net value.*
+The uniform hurdle rate not only fails to reveal P&S's value destruction—it also dramatically underrepresents Telecom's value creation, leading management to underinvest in its best asset.
 
 ### 4.3 Would Switching to Risk-Adjusted Rates Destroy Value?
 
 **No.** The switch does not cause value destruction—it *reveals* destruction that is already occurring. The analogy is a thermometer: showing the patient's true temperature does not cause the fever.
 
 In fact, implementing risk-adjusted rates would likely **improve** firm value by:
-- Stopping approvals of P&S projects that clear the 9.30% hurdle but fall below 11.21%
-- Unlocking previously rejected Telecom projects that clear 8.84% but fell below 9.30%
-- Reallocating capital from value-destroying to value-creating uses
+- Stopping approvals of P&S projects that clear the 9.30% hurdle but fall below 11.22%
+- Unlocking previously rejected Telecom projects that clear 7.25% but fell below 9.30%
+- Reallocating capital from value-destroying P&S to value-creating Telecom
 
 ### 4.4 Should TeleTech Implement Risk-Adjusted Hurdle Rates?
 
@@ -286,9 +283,9 @@ In fact, implementing risk-adjusted rates would likely **improve** firm value by
 The financial case is unambiguous:
 - Chapter 14 (Cost of Capital): WACC must reflect the true risk of the specific project/division, not a blended average
 - Chapter 11 (Capital Budgeting): The NPV decision rule requires discounting at the *appropriate* required rate—using the wrong rate leads to systematic accept/reject errors
-- The EVA analysis shows the current system is destroying ~$76.8M/year in P&S alone
+- The EVA analysis shows P&S is destroying ~$77.1M/year while Telecom creates ~$208.5M/year—the opportunity cost of inaction is enormous
 
-Without risk-adjusted hurdle rates, TeleTech will continue to misallocate capital, eroding shareholder wealth year after year.
+Without risk-adjusted hurdle rates, TeleTech will continue to misallocate capital, capping Telecom's growth while sustaining P&S's value destruction.
 
 ---
 
@@ -298,7 +295,7 @@ Despite the theoretical superiority of risk-adjusted hurdle rates, implementatio
 
 ### 5.1 Organizational and Political Resistance
 
-The most immediate barrier is internal politics. The P&S division currently benefits from an artificially low hurdle rate. Implementing segment-specific rates means P&S managers would face a 11.21% benchmark—nearly two percentage points higher than their current one. This would:
+The most immediate barrier is internal politics. The P&S division currently benefits from an artificially low hurdle rate. Implementing segment-specific rates means P&S managers would face a 11.22% benchmark—nearly two percentage points higher than their current one. This would:
 
 - Make many currently-approved P&S projects unacceptable
 - Reduce P&S's capital budget and headcount
@@ -312,7 +309,7 @@ Furthermore, the board may be reluctant to act on findings that imply a large se
 
 Even setting aside politics, the methodology itself has limitations:
 
-**Beta estimation instability:** Equity betas are estimated from historical stock returns and are inherently noisy. A beta of 1.655 for P&S could plausibly range from 1.3 to 2.0 depending on the estimation period, frequency, and peer group selected, implying a P&S WACC range of roughly 9.5% to 15.5%. This uncertainty may make management skeptical of the precision implied by a single-point estimate.
+**Beta estimation instability:** Equity betas are estimated from historical stock returns and are inherently noisy. A beta of 1.657 for P&S could plausibly range from 1.3 to 2.0 depending on the estimation period, frequency, and peer group selected, implying a P&S WACC range of roughly 9.5% to 15.5%. This uncertainty may make management skeptical of the precision implied by a single-point estimate.
 
 **Comparable company selection subjectivity:** There is no single "correct" set of comparable firms. Different analysts selecting different comparables would produce different unlevered betas. This invites gaming: divisions have incentives to propose comparables that minimize their hurdle rate.
 
@@ -324,7 +321,7 @@ Even setting aside politics, the methodology itself has limitations:
 
 Changing the hurdle rate without simultaneously changing compensation systems will lead to behavioral inconsistencies. If P&S managers are still evaluated on metrics linked to the old 9.30% hurdle (e.g., EVA bonuses calibrated to the old rate), they will continue to behave as before—the new hurdle rate on paper will have no effect on actual investment decisions.
 
-Moreover, a higher hurdle rate in P&S may create perverse incentives toward short-termism: managers might cut long-term R&D spending (which reduces near-term ROIC headcount) to meet the new ROIC benchmark, even if the R&D investments have positive NPV over a longer horizon.
+Moreover, a higher hurdle rate in P&S may create perverse incentives toward short-termism: managers might cut long-term R&D spending to meet the new ROIC benchmark, even if the R&D investments have positive NPV over a longer horizon.
 
 ### 5.4 Organizational Learning and Change Management
 
@@ -343,23 +340,23 @@ Finally, a practical barrier is the organizational effort required to shift the 
 
 | Question | Key Finding |
 |---|---|
-| **a. Hurdle Rate Choice** | Uniform 9.30% creates systematic Type I (reject good) and Type II (accept bad) errors; risk-adjusted rates correctly align capital with risk |
-| **b. Segment WACC** | Telecom Services: **8.84%** | Products & Systems: **11.21%** (vs. blended 9.30%) |
-| **c. Value Creation** | P&S destroys **$76.8M/year**; Telecom creates **$69.2M/year**; net firm is a **value destroyer** under current rate. Should implement risk-adjusted rates |
+| **a. Hurdle Rate Choice** | Uniform 9.30% creates systematic Type I (reject good) and Type II (accept bad) errors; misallocated zone spans 2+ percentage points in Telecom |
+| **b. Segment WACC** | Telecom Services: **7.25%** | Products & Systems: **11.22%** (vs. blended 9.30%) |
+| **c. Value Creation** | P&S destroys **$77.1M/year**; Telecom creates **$208.5M/year**; firm net EVA = **+$131.4M/yr** — but P&S is a major drag that must be addressed |
 | **d. Barriers** | Political resistance, beta/comparables subjectivity, incentive misalignment, organizational learning curve |
 
 ### 6.2 Action Plan
 
 | Priority | Recommendation | Timeline |
 |---|---|---|
-| **Immediate** | Adopt risk-adjusted hurdle rates: Telecom 8.84%, P&S 11.21% | Q1 2006 |
+| **Immediate** | Adopt risk-adjusted hurdle rates: Telecom 7.25%, P&S 11.22% | Q1 2006 |
 | **Short-term** | Recalibrate compensation systems to EVA benchmarks using segment WACCs | Q2 2006 |
 | **Medium-term** | Strategic review of P&S: restructure, divest, or set explicit turnaround targets | 2006 |
 | **Ongoing** | Annual update of segment betas and comparable company data | Annual |
 
 ### 6.3 Final Verdict
 
-TeleTech's current uniform hurdle rate is not merely theoretically impure—it is causing real, measurable, ongoing destruction of shareholder value. The risk-adjusted approach reveals a firm where one segment (Telecom) is a solid value creator being starved of capital, while another (P&S) is a value destroyer being over-fed with capital.
+TeleTech's current uniform hurdle rate is not merely theoretically impure—it is causing real, measurable, ongoing destruction of shareholder value in P&S, while simultaneously starving Telecom of capital that could generate massive value creation. The risk-adjusted approach reveals a firm where one segment (Telecom) is an outstanding value creator with a 2.38% excess return spread, while P&S is a 2.38% value destroyer.
 
 The finance principle is clear: as taught in Chapter 14, the purpose of estimating a cost of capital is to enable correct resource allocation between divisions. TeleTech must adopt risk-adjusted hurdle rates—not just as an academic exercise, but as an operational imperative.
 
@@ -381,12 +378,13 @@ The finance principle is clear: as taught in Chapter 14, the purpose of estimati
 
 | MRP Assumption | Telecom WACC | P&S WACC | Gap |
 |---|---|---|---|
-| MRP = 4.5% | 8.31% | 10.06% | 1.75% |
-| MRP = 5.5% (base case) | **8.84%** | **11.21%** | **2.37%** |
-| MRP = 6.5% | 9.37% | 12.36% | 2.99% |
-| MRP = 7.0% | 9.64% | 12.95% | 3.31% |
+| MRP = 4.5% | 6.55% | 9.55% | 3.00% |
+| MRP = 5.0% | 6.91% | 10.38% | 3.47% |
+| MRP = 5.5% (base case) | **7.25%** | **11.22%** | **3.97%** |
+| MRP = 6.0% | 7.60% | 12.06% | 4.46% |
+| MRP = 7.0% | 8.28% | 13.73% | 5.45% |
 
-**Conclusion from sensitivity:** Regardless of MRP assumption, the qualitative conclusion is unchanged. Telecom WACC is always materially below P&S WACC, and P&S ROIC (8.84%) always falls well below P&S WACC.
+**Conclusion from sensitivity:** P&S ROIC (8.84%) falls below P&S WACC under every MRP assumption above ~2.5%. The qualitative conclusion is fully robust: P&S destroys value; Telecom creates value.
 
 ### A.3 Capital Budgeting Decision Framework (Chapter 11)
 
@@ -394,9 +392,9 @@ The NPV rule (Chapter 11) requires:
 
 $$NPV = \sum_{t=1}^{n} \frac{CF_t}{(1 + WACC_{correct})^t} - IO$$
 
-Using the wrong discount rate (9.30% for P&S instead of 11.21%) overstates the NPV of P&S projects by:
+Using the wrong discount rate (9.30% for P&S instead of 11.22%) overstates the NPV of P&S projects by:
 
-$$\Delta NPV \approx \frac{CF}{WACC_{wrong}} - \frac{CF}{WACC_{correct}} = \frac{CF}{0.093} - \frac{CF}{0.1121} > 0$$
+$$\Delta NPV \approx \frac{CF}{WACC_{wrong}} - \frac{CF}{WACC_{correct}} = \frac{CF}{0.093} - \frac{CF}{0.1122} > 0$$
 
 The positive $\Delta NPV$ means P&S projects *look* better than they are—a direct consequence of the uniform hurdle rate error.
 
