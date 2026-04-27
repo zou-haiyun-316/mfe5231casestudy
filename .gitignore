@@ -1,0 +1,15 @@
+# macOS
+.DS_Store
+
+# Course lecture slides (too large, not needed in repo)
+Financial Management*.pptx
+
+# Original case documents (binary)
+*.doc
+groupfm262_SZ(4).doc
+
+# Original case PDF (keep if you want, comment out to include)
+# mscfmcap262_SZ(1).pdf
+
+# Teaching schedule
+Teaching Schedule*.docx
