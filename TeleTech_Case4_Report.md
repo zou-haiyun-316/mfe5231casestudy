@@ -2,7 +2,7 @@
 ## Case 4: TeleTech Corporation, 2005
 ### Risk-Adjusted Hurdle Rates and Value Creation
 
-**Group 4:** Rangxila GONG | Huihui LIU | Yin PANG | Haiyun ZOU  
+**Group 4:** Rangxila GONG | Huihui LIU | Haiyun ZOU  
 **Course:** MFE 5231 Financial Management, 2nd Term 2025-2026, CUHK(Shenzhen)  
 **Instructor:** Prof. Joseph Cheng
 
@@ -421,4 +421,4 @@ The dramatically lower leverage in P&S comparables (9% vs. 26% D/V) explains why
 
 ---
 
-*Report prepared by Group 4, MFE 5231 Financial Management, CUHK(Shenzhen), 2025-2026.*
+*Report prepared by Group 4 (Rangxila GONG | Huihui LIU | Haiyun ZOU), MFE 5231 Financial Management, CUHK(Shenzhen), 2025-2026.*
