@@ -175,12 +175,11 @@ Under **risk-adjusted rates**:
 
 #### Decision Errors Under Uniform Rate
 
-| Project Scenario | Uniform Rate (9.30%) Says | Risk-Adjusted Rate Says | Error |
-|---|---|---|---|
-| Telecom project, IRR = 9.00% | REJECT (< 9.30%) | ACCEPT (> 8.47%) | Type I: Reject good project |
-| Telecom project, IRR = 8.80% | REJECT | ACCEPT | Type I: Reject good project |
-| P&S project, IRR = 10.50% | ACCEPT (> 9.30%) | REJECT (< 11.40%) | Type II: Accept bad project |
-| P&S project, IRR = 9.80% | ACCEPT | REJECT | Type II: Accept bad project |
+The single hurdle rate creates two categories of systematic error:
+
+- **Type I Error (Underinvestment in Telecom):** Any Telecom project whose return falls between the true segment WACC (8.47%) and the corporate hurdle rate (9.30%) is a genuine value creator—it earns above its risk-adjusted cost of capital—but gets wrongly **rejected** under the uniform rate. Capital is systematically withheld from TeleTech's lower-risk, value-creating segment.
+
+- **Type II Error (Overinvestment in P&S):** Any P&S project whose return falls between the corporate hurdle rate (9.30%) and the true segment WACC (11.40%) appears profitable under the uniform rate but is actually value-destroying once risk is properly priced. Capital is systematically misallocated to TeleTech's higher-risk segment.
 
 This is Rick Phillips's argument from the case: "Telecommunications services lowers the risk of the whole corporation, and should not be penalized."
 
